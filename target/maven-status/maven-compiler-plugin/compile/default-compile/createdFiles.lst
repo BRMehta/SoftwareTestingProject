@@ -1,0 +1,12 @@
+Calculator\Matrix\addition.class
+Calculator\Matrix\identity.class
+Calculator\Matrix\idempotent.class
+Calculator\Matrix\multiplication.class
+Calculator\Operations\Statistics.class
+Calculator\Matrix\power.class
+Calculator\Converter\currencyConverter.class
+Calculator\Matrix\subtraction.class
+Calculator\Operations\EmptyArrayException.class
+Calculator\Converter\temperatureConverter.class
+Calculator\Matrix\inverse.class
+Calculator\Operations\CheckPalindrome.class

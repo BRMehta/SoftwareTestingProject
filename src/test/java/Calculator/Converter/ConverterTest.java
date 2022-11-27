@@ -10,100 +10,100 @@ public class ConverterTest {
     @Test
     public void usdToInr()
     {
-        res=curConv.usdToInr(10);
+        res=curConv.convert(1,10);
         assertEquals(81.52 * 10, res, 0.01);
 
-        res=curConv.usdToInr(-937);
+        res=curConv.convert(1,-937);
         assertEquals(-1, res, 0.01);
     }
 
     @Test
     public void inrToUsd()
     {
-        res=curConv.inrToUsd(10);
+        res=curConv.convert(2,10);
         assertEquals(0.012 * 10, res, 0.01);
 
-        res=curConv.inrToUsd(-937);
+        res=curConv.convert(2,-937);
         assertEquals(-1, res, 0.01);
     }
 
     @Test
     public void poundToInr()
     {
-        res=curConv.poundToInr(10);
+        res=curConv.convert(3,10);
         assertEquals(96.92 * 10, res, 0.01);
 
-        res=curConv.poundToInr(-937);
+        res=curConv.convert(3,-937);
         assertEquals(-1, res, 0.01);
     }
 
     @Test
     public void inrToPound()
     {
-        res=curConv.inrToPound(10);
+        res=curConv.convert(4,10);
         assertEquals(0.010 * 10, res, 0.01);
 
-        res=curConv.inrToPound(-937);
+        res=curConv.convert(4,-937);
         assertEquals(-1, res, 0.01);
     }
 
     @Test
     public void yenToInr()
     {
-        res=curConv.yenToInr(10);
+        res=curConv.convert(5,10);
         assertEquals(0.58 * 10, res, 0.01);
 
-        res=curConv.yenToInr(-937);
+        res=curConv.convert(5,-937);
         assertEquals(-1, res, 0.01);
     }
 
     @Test
     public void inrToYen()
     {
-        res=curConv.inrToYen(10);
+        res=curConv.convert(6,10);
         assertEquals(1.72 * 10, res, 0.01);
 
-        res=curConv.inrToYen(-937);
+        res=curConv.convert(6,-937);
         assertEquals(-1, res, 0.01);
     }
 
     @Test
     public void dirhumToInr()
     {
-        res=curConv.dirhumToInr(10);
+        res=curConv.convert(7,10);
         assertEquals(22.19 * 10, res, 0.01);
 
-        res=curConv.dirhumToInr(-937);
+        res=curConv.convert(7,-937);
         assertEquals(-1, res, 0.01);
     }
 
     @Test
     public void inrToDirhum()
     {
-        res=curConv.inrToDirhum(10);
+        res=curConv.convert(8,10);
         assertEquals(0.045 * 10, res, 0.01);
 
-        res=curConv.inrToDirhum(-937);
+        res=curConv.convert(8,-937);
         assertEquals(-1, res, 0.01);
     }
 
     @Test
     public void rubleToInr()
     {
-        res=curConv.rubleToInr(10);
+        res=curConv.convert(9,10);
         assertEquals(1.34 * 10, res, 0.01);
 
-        res=curConv.rubleToInr(-937);
+        res=curConv.convert(9,-937);
         assertEquals(-1, res, 0.01);
     }
 
     @Test
     public void inrToRuble()
     {
-        res=curConv.inrToRuble(10);
+        res=curConv.convert(10,10);
         assertEquals(0.75 * 10, res, 0.01);
 
-        res=curConv.inrToRuble(-937);
+        res=curConv.convert(10,-937);
         assertEquals(-1, res, 0.01);
     }
 }

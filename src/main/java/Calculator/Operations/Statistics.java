@@ -18,10 +18,11 @@ class EmptyArrayException extends RuntimeException
 }
 public class Statistics {
     public double findMean (double[] arr) throws EmptyArrayException {
-        if(arr.length == 0)
-            throw new EmptyArrayException("Array is empty.");
         long count=0;
         double sum=0;
+        if(arr.length == 0)
+            throw new EmptyArrayException("Array is empty.");
+
         for(double val:arr)
         {
             count++;

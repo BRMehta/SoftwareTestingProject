@@ -37,7 +37,6 @@ public class StatisticsTest {
         res = stats.findMean(arr4);
         assertEquals(-6.0, res, 0.01);
 
-
         exception  = assertThrows(EmptyArrayException.class, new Executable() {
 
             @Override
@@ -66,13 +65,11 @@ public class StatisticsTest {
         res= stats.findMedian(arr4);
         assertEquals(2, res, 0.01);
 
-        exception  = assertThrows(EmptyArrayException.class, new Executable() {
-
-            @Override
-            public void execute() throws Throwable {
-                res= stats.findMedian(arr5);
-            }
-        });
+        //Using anonymous class concept
+        exception = assertThrows(EmptyArrayException.class, () -> {
+                    res= stats.findMedian(arr5);
+                }
+        );
 
         assertEquals("Array is empty.",exception.getMessage());
     }
@@ -94,13 +91,11 @@ public class StatisticsTest {
         res= stats.findMode(arr4);
         assertEquals(-1, res, 0.01);
 
-        exception  = assertThrows(EmptyArrayException.class, new Executable() {
-
-            @Override
-            public void execute() throws Throwable {
-                res= stats.findMode(arr5);
-            }
-        });
+        //Using anonymous class concept
+        exception = assertThrows(EmptyArrayException.class, () -> {
+                    res= stats.findMode(arr5);
+                }
+        );
 
         assertEquals("Array is empty.",exception.getMessage());
     }

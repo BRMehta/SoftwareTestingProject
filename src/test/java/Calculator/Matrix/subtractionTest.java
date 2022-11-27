@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
-public class subtractiontest
+public class subtractionTest
 {
    subtraction sub=new subtraction();
     @BeforeEach

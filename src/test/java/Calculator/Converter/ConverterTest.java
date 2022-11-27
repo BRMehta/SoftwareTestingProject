@@ -1,6 +1,7 @@
 package Calculator.Converter;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 import org.junit.Test;
 
@@ -15,6 +16,9 @@ public class ConverterTest {
 
         res=curConv.convert(1,-937);
         assertEquals(-1, res, 0.01);
+
+        res=curConv.convert(1,937);
+        assertFalse(res==-1);
     }
 
     @Test
@@ -25,6 +29,9 @@ public class ConverterTest {
 
         res=curConv.convert(2,-937);
         assertEquals(-1, res, 0.01);
+
+        res=curConv.convert(2,937);
+        assertFalse(res==-1);
     }
 
     @Test
@@ -35,6 +42,9 @@ public class ConverterTest {
 
         res=curConv.convert(3,-937);
         assertEquals(-1, res, 0.01);
+
+        res=curConv.convert(3,937);
+        assertFalse(res==-1);
     }
 
     @Test
@@ -45,6 +55,9 @@ public class ConverterTest {
 
         res=curConv.convert(4,-937);
         assertEquals(-1, res, 0.01);
+
+        res=curConv.convert(4,937);
+        assertFalse(res==-1);
     }
 
     @Test
@@ -55,6 +68,9 @@ public class ConverterTest {
 
         res=curConv.convert(5,-937);
         assertEquals(-1, res, 0.01);
+
+        res=curConv.convert(5,937);
+        assertFalse(res==-1);
     }
 
     @Test
@@ -65,6 +81,9 @@ public class ConverterTest {
 
         res=curConv.convert(6,-937);
         assertEquals(-1, res, 0.01);
+
+        res=curConv.convert(6,937);
+        assertFalse(res==-1);
     }
 
     @Test
@@ -75,6 +94,9 @@ public class ConverterTest {
 
         res=curConv.convert(7,-937);
         assertEquals(-1, res, 0.01);
+
+        res=curConv.convert(7,937);
+        assertFalse(res==-1);
     }
 
     @Test
@@ -85,6 +107,9 @@ public class ConverterTest {
 
         res=curConv.convert(8,-937);
         assertEquals(-1, res, 0.01);
+
+        res=curConv.convert(8,937);
+        assertFalse(res==-1);
     }
 
     @Test
@@ -95,6 +120,9 @@ public class ConverterTest {
 
         res=curConv.convert(9,-937);
         assertEquals(-1, res, 0.01);
+
+        res=curConv.convert(9,937);
+        assertFalse(res==-1);
     }
 
     @Test
@@ -105,5 +133,8 @@ public class ConverterTest {
 
         res=curConv.convert(10,-937);
         assertEquals(-1, res, 0.01);
+
+        res=curConv.convert(10,937);
+        assertFalse(res==-1);
     }
 }

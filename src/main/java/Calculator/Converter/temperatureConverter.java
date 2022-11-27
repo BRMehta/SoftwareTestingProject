@@ -2,8 +2,19 @@ package Calculator.Converter;
 
 public class temperatureConverter
 {
-
-
+    public  double tconverter(int type,double x)
+    {
+        if(type==1)
+            return FahrenheitTocelsius(x);
+        else if(type==2)
+            return celsiusToFahrenheit(x);
+        else if(type==3)
+            return celsiusToKelvin(x);
+        else if(type==4)
+            return KelvinToCelsius(x);
+        else
+            return -999;
+    }
     public double FahrenheitTocelsius(double x)
     {
        return (x-32)*.5556;

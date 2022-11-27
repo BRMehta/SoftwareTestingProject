@@ -18,8 +18,6 @@ public class StatisticsTest {
 
     double res;
 
-    @Rule
-    public ExpectedException thrown = ExpectedException.none();
     @Test
     public void findMean()
     {

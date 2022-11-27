@@ -53,29 +53,20 @@ public class Statistics {
         for(double val:arr)
         {
             if(!countMap.containsKey(val))
-            {
                 countMap.put(val,1L);
-            }
             else
-            {
                 countMap.put(val,countMap.get(val)+1);
-            }
         }
         Iterator hmIterator = countMap.entrySet().iterator();
         while (hmIterator.hasNext()) {
-
             HashMap.Entry mapElement = (HashMap.Entry)hmIterator.next();
-
             if(maxFreq < (Long)mapElement.getValue())
             {
                 maxFreq = (Long)mapElement.getValue();
                 ans = (Double)mapElement.getKey();
             }
             else if(maxFreq == (Long)mapElement.getValue() && ans > (Double)mapElement.getKey())
-            {
                 ans=(Double)mapElement.getKey();
-            }
-
         }
         return ans;
     }

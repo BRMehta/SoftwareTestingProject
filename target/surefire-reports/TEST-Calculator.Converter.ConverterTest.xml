@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="0" name="Calculator.Converter.ConverterTest" time="0.006" errors="0" skipped="0">
+<testsuite tests="10" failures="0" name="Calculator.Converter.ConverterTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
@@ -70,8 +70,8 @@
   <testcase classname="Calculator.Converter.ConverterTest" name="yenToInr" time="0"/>
   <testcase classname="Calculator.Converter.ConverterTest" name="usdToInr" time="0"/>
   <testcase classname="Calculator.Converter.ConverterTest" name="poundToInr" time="0"/>
-  <testcase classname="Calculator.Converter.ConverterTest" name="inrToUsd" time="0.001"/>
-  <testcase classname="Calculator.Converter.ConverterTest" name="inrToYen" time="0.001"/>
+  <testcase classname="Calculator.Converter.ConverterTest" name="inrToUsd" time="0"/>
+  <testcase classname="Calculator.Converter.ConverterTest" name="inrToYen" time="0"/>
   <testcase classname="Calculator.Converter.ConverterTest" name="inrToPound" time="0"/>
   <testcase classname="Calculator.Converter.ConverterTest" name="inrToRuble" time="0"/>
   <testcase classname="Calculator.Converter.ConverterTest" name="rubleToInr" time="0.001"/>

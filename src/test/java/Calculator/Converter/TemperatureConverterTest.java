@@ -9,7 +9,7 @@ public class TemperatureConverterTest {
     double res;
 
     @Test
-    public void FahrenheitTocelsius(double x)
+    public void FahrenheitTocelsius()
     {
         res=tc.FahrenheitTocelsius(10);
         assertEquals((10-32)*.5556, res, 0.01);
@@ -20,7 +20,7 @@ public class TemperatureConverterTest {
 
 
     @Test
-    public void celsiusToFahrenheit(double x)
+    public void celsiusToFahrenheit()
     {
         res=tc. celsiusToFahrenheit(10);
         assertEquals((10)*1.8+32, res, 0.01);
@@ -31,7 +31,7 @@ public class TemperatureConverterTest {
 
 
     @Test
-    public void celsiusToKelvin(double x)
+    public void celsiusToKelvin()
     {
         res=tc. celsiusToKelvin(10);
         assertEquals((10)+273.15, res, 0.01);
@@ -40,7 +40,7 @@ public class TemperatureConverterTest {
         assertEquals(-93.7+273.15, res, 0.01);
     }
     @Test
-    public void KelvinToCelsius(double x)
+    public void KelvinToCelsius()
     {
         res=tc.KelvinToCelsius(10);
         assertEquals((10)-273.15, res, 0.01);

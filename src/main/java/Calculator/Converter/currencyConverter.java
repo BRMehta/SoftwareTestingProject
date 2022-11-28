@@ -20,52 +20,23 @@ public class currencyConverter {
         }
     }
     public double usdToInr(double usd)
-    {
-        return usd * 81.52;
-    }
-
+    { return usd * 81.52;}
     public double inrToUsd(double inr)
-    {
-        return 0.012 * inr;
-    }
-
+    { return 0.012 * inr;}
     public double poundToInr(double pound)
-    {
-        return pound * 96.92;
-    }
-
+    { return pound * 96.92;}
     public double inrToPound(double inr)
-    {
-        return 0.010 * inr;
-    }
-
+    { return 0.010 * inr;}
     public double yenToInr(double yen)
-    {
-        return yen * 0.58;
-    }
-
+    { return yen * 0.58;}
     public double inrToYen(double inr)
-    {
-        return 1.72 * inr;
-    }
-
+    { return 1.72 * inr;}
     public double dirhumToInr(double dirhum)
-    {
-        return dirhum * 22.19;
-    }
-
+    { return dirhum * 22.19;}
     public double inrToDirhum(double inr)
-    {
-        return 0.045 * inr;
-    }
-
+    { return 0.045 * inr;}
     public double rubleToInr(double ruble)
-    {
-        return ruble * 1.34;
-    }
-
+    { return ruble * 1.34;}
     public double inrToRuble(double inr)
-    {
-        return 0.75 * inr;
-    }
+    { return 0.75 * inr;}
 }
